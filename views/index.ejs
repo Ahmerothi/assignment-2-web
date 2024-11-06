@@ -1,23 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navbar -->
+    <header>
+        <nav class="navbar">
+            <img src="ah.jpg" alt="Ahmer Othi" class="top-right-img">
+            <ul>
+                <li><a href="index.ejs">Home</a></li>
+                <li><a href="about.ejs">About Me</a></li>
+                <li><a href="projects.ejs">Projects</a></li>
+                <li><a href="contact.ejs">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <!-- Home Section -->
+    <section id="home">
+        <div class="main">
+            <h1 class="heading">I AM <br> Ahmer Imran Othi</h1>
+        </div>
+    </section>
 
-<%- include partials/header.ejs %>
-<%- include partials/main_nav.ejs %>
-</main>
-
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Welcome to the <%= title %> page</h1>
-    
-  </div>
-</div>
-</main>
-
-
-<%- include partials/bottom_nav.ejs %>
-<%- include partials/footer.ejs %>
-
-
-
-
-
-
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>Contact me via email: <a href="mailto:example@example.com">ahmer.othi@ontariotechu.net</a></p>
+            <p>&copy; 2024 by Ahmer Othi</p>
+        </div>
+        <header>
+           
+        </header>
+        
+    </footer>
+</body>
+</html>
